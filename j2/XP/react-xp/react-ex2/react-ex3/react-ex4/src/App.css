@@ -1,0 +1,104 @@
+
+.App {
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  background-color: #f0f4f8;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 40px;
+}
+
+
+.phone-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  padding: 30px 40px;
+  text-align: left;
+  max-width: 320px;
+  transition: transform 0.3s, box-shadow 0.3s;
+  margin-bottom: 30px;
+}
+
+.phone-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.phone-card h2 {
+  display: flex;
+  align-items: center;
+  font-size: 22px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.phone-card h3 {
+  margin: 10px 0;
+  color: #555;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+
+.phone-card button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 15px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.phone-card button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
+.color-card {
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  padding: 30px 40px;
+  margin-top: 30px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.color-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.color-card h2 {
+  font-size: 20px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+
+.color-card button {
+  background-color: #28a745;
+  color: white;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.color-card button:hover {
+  background-color: #1e7e34;
+  transform: scale(1.05);
+}
