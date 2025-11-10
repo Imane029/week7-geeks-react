@@ -1,0 +1,8 @@
+{
+  "SocialMedias": ["Facebook", "Twitter", "Instagram"],
+  "Skills": ["JavaScript", "React", "Node.js"],
+  "Experiences": [
+    { "id": 1, "company": "Google", "years": "2019-2021" },
+    { "id": 2, "company": "Amazon", "years": "2021-2023" }
+  ]
+}
